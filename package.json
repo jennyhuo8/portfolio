@@ -1,7 +1,7 @@
 {
-  "homepage": "https://jennyhuo.github.io/myportfolio",
-  "name": "portfoliothingy",
+  "name": "portifolio",
   "version": "0.1.0",
+  "homepage": "https://jennyhuo8.github.io/myportfolio",
   "private": true,
   "scripts": {
     "dev": "next dev",
