@@ -13,7 +13,7 @@ const SurgicalInstrument = () => {
           <Balancer>
           <ProjectSectionTitle>Overview</ProjectSectionTitle>
             <ProjectText>
-            I was a Product Development co-op at DePuy Synthes during my second year at Northeastern University from January to July.* During my time
+            I was a Product Development co-op at Johnson & Johnson's orthopedic company - DePuy Synthes.* During my time
             there I helped out with two teams mainly: one relating to wrist fixation and the other for general small bones in the body. Projects included
             designing and optimizing instruments, leading mechanical testing on parts, and independent leadership roles.
             <br /> <br />

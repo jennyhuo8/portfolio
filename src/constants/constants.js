@@ -10,12 +10,12 @@ export const projects = [
       tags: ['JavaScript', 'React', 'Node'],
     id: 0,
     slug: 'portfolio',
-    short_description: 'I learned JavaScript and React with no prior knowledge to design this very website!',
+    short_description: 'I learned React with no prior knowledge to design this very website!',
     date: '2023 - Present',
   },
   {
     title: 'Product Development Co-Op',
-    description:"As a co-op at DePuy Synthes*, I played a role in the design and development of new cutting edge orthopedic surgical instruments. Collaborating closely " +
+    description:"As a co-op at Johnson & Johnson, I played a role in the design and development of new cutting edge orthopedic surgical instruments. Collaborating closely " +
     "with the team, I spent hours researching different surgical techniques and actively seeking feedback from coworkers, enabling me to make insightful improvements to the " +
     "instruments after many prototypes. During surgeon labs, my designs garnered positive feedback for usability and performance. Along with my design work, " +
     "I also aided in essential mechanical testing for numerous devices, and independently took on key roles where needed.",
@@ -23,7 +23,7 @@ export const projects = [
     tags: ['Creo', 'ANSYS'],
     id: 1,
     slug: 'surgicalinstrument',
-    short_description: 'I designed and tested surgical instruments during my co-op at DePuy Synthes.',
+    short_description: 'I designed and tested surgical instruments during my co-op at Johnson & Johnson.',
     date: '2023'
   },
   {
