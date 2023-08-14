@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import { AiOutlineMail, AiOutlineLinkedin } from 'react-icons/ai';
-
+import Link from 'next/link';
 import { FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, MadeBy, Slogan, SocialContainer, ImageFooter } from './FooterStyles';
 
 const Footer = () => {
@@ -20,21 +20,25 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Linkedin</LinkTitle>
-            <LinkItem href="https://www.linkedin.com/in/jenny-huo88/" target="_blank" rel="noopener noreferrer">
+          <Link href="https://www.linkedin.com/in/jenny-huo88/" target="_blank" rel="noopener noreferrer">
+            <LinkItem>
               <SocialContainer>
                 <AiOutlineLinkedin/>
               </SocialContainer>
                 jenny-huo88
             </LinkItem>
+          </Link>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-            <LinkItem href="mailto:jenny8huo@gmail.com" target="_blank" rel="noopener noreferrer">
+          <Link href="mailto:jenny8huo@gmail.com" target="_blank" rel="noopener noreferrer">
+            <LinkItem>
               <SocialContainer>
                 <AiOutlineMail/>
               </SocialContainer>
               <span mr-5>jenny8huo@gmail.com</span>
             </LinkItem>
+          </Link>
         </LinkColumn>
         <LinkColumn></LinkColumn>
         <LinkColumn>

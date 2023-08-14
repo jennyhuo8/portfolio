@@ -9,6 +9,7 @@ export const Section = styled.section`
   position: relative;
   text-align: center;
   margin-bottom: 40px;
+  margin: 0 3rem 40px;
 `
 
 export const SectionTitle = styled.h2`

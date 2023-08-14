@@ -23,7 +23,7 @@ const About = () => {
           exploring the world of engineering and be able to contribute to future advances in the world that my inner 
           child would be amazed by.
         </AboutText>
-        <JennyImage src="/images/placeholderabout.png"/>
+        <JennyImage src="/images/aboutme.jpg"/>
       </AboutContainer>
       <CheckResume>If you're interested, you can check out my resume below!</CheckResume>
     </Section>

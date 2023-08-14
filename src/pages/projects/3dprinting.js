@@ -48,7 +48,7 @@ const ThreeDPrinting = () => {
               Going into designing the entire holder, I first needed to find the right dimensions for each cartridge slot so that it is big enough to fit the cartridge in,
               but also small enough to have a snug fit. I modelled various dimensions for the slot for printing to test them out. 
 
-              ****INSERT PICTURE Here****
+              <ImageContainer src="/images/3dprintswitchcart.png" alt="Cartridges"/>
 
               Once finding the right dimensions, I was able to model up the entire Pokédex itself, which consisted of 2 pieces that fit together. Each side could hold 9 
               Switch games as well as 1 SD card, for storage of 18 games and 2 SD cards in total. This endeavor presented a valuable opportunity for me to <BoldText>challenge my SolidWorks

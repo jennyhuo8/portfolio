@@ -9,8 +9,7 @@ export const LeftSection = styled.div`
 `;
 
 export const HeadShot = styled.img`
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
+  max-width: 1000px;
+  border-radius: 5%;
   margin: 4rem;
 `;

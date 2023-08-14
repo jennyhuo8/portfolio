@@ -16,8 +16,8 @@ export const AboutText = styled.p`
 `;
 
 export const JennyImage = styled.img`
-  max-width: 400px;
-  height: auto;
+  max-width: 500px;
+  height: 700px;
   border: solid 3px;
   color: #000000;
   margin: 3rem;
