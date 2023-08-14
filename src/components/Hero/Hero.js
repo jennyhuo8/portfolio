@@ -7,7 +7,7 @@ const Hero = (props) => (
   <>
     <Section row nopadding>
       <LeftSection>
-          <HeadShot src='images/frontme.jpg'/>
+          <HeadShot src='images/frontme.png'/>
         <SectionTitle>
           JENNY HUO
         </SectionTitle>

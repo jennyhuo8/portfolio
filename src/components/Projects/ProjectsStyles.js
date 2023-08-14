@@ -41,7 +41,7 @@ export const TitleContent = styled.div`
 `;
 
 export const HeaderThree = styled.h3`
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: 2px;
   color: #000000;
   padding: .5rem 0;
