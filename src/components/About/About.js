@@ -1,11 +1,11 @@
 import React from 'react';
 
 import { Section, SectionTitle } from '../../styles/GlobalComponents';
-import { AboutContainer, AboutText, JennyImage, CheckResume } from './AboutStyles';
+import { AboutSection, AboutContainer, AboutText, JennyImage, CheckResume } from './AboutStyles';
 
 const About = () => {
   return (
-    <Section id="about">
+    <AboutSection id="about">
       <SectionTitle>ABOUT ME</SectionTitle>
       <AboutContainer>
         <AboutText>
@@ -26,7 +26,7 @@ const About = () => {
         <JennyImage src="/images/aboutme.jpg"/>
       </AboutContainer>
       <CheckResume>If you're interested, you can check out my resume below!</CheckResume>
-    </Section>
+    </AboutSection>
   );
 };
 

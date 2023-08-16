@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import { AiOutlineMail, AiOutlineLinkedin } from 'react-icons/ai';
 import Link from 'next/link';
-import { FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, MadeBy, Slogan, SocialContainer, ImageFooter } from './FooterStyles';
+import { FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, MadeBy, Slogan, SocialContainer, ImageFooter, IconsContainer } from './FooterStyles';
 
 const Footer = () => {
   const [highlighted, setHighlighted] = useState(false);

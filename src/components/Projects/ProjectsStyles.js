@@ -9,12 +9,22 @@ export const ProjectSection = styled.div`
 export const Img = styled.img`
   width: 100%;
   height: 330px;
+
+
+
 `
 
 export const GridContainer = styled.section`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+    padding-bottom: 2rem;
+  }
 `;
 
 export const BlogCard = styled.div`
@@ -30,6 +40,12 @@ export const BlogCard = styled.div`
     transform: translate(10px, -20px);
     outline: #ff8fc6;
   }
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
 `;
 
 export const TitleContent = styled.div`
@@ -38,6 +54,7 @@ export const TitleContent = styled.div`
   width: 100%;
   color: #000000;
   margin-top: 3rem;
+  
 `;
 
 export const HeaderThree = styled.h3`
@@ -46,6 +63,10 @@ export const HeaderThree = styled.h3`
   color: #000000;
   padding: .5rem 0;
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    font-size: 2.5rem;
+  }
 `;
 
 export const Hr = styled.hr`
@@ -74,6 +95,11 @@ export const CardInfo = styled.div`
   font-size: 2rem;
   line-height: 24px;
   text-align: justify;
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    font-size: 1.5rem;
+    padding: 0 20px;
+  }
 `;
 
 export const TagList = styled.ul`

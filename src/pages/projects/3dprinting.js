@@ -22,18 +22,24 @@ const ThreeDPrinting = () => {
             <ProjectText>
               As I heard my mom complaining about how the 5th chair leg tip she's tried was falling off or breaking, I was eager to try to help her situation
               with my new 3D printer. 
-              <ImageContainer src="/images/3dprintlegcap.jpg" alt="Resin Printing"/>
+              <ImageContainer src="/images/3dprintlegcap.jpg" alt="Example Leg Tip"/>
 
               This was my first project with my 3D printer, and from it I learned a <BoldText>lot.</BoldText>
               <br /> <br />
-              I first took measurements off of our house chair feet, and then designed a couple ideas I had. From there, came modelling and prototyping. 
+              I first took measurements off of our house chair feet, and then designed a couple ideas I had. From there, came modelling and prototyping. I noticed that the problem with 
+              a lot of these leg tips was that it was either made from a rubbery plastic material that kept tearing, or the felt tip on the bottom that makes the chair glide on the floor would 
+              fall off. I came up with a design that fits snug around the leg and is also decently thick, to prevent breakage. It also includes a hole at the bottom where a felt piece can stick through, but 
+              be held in place by the chair and not be at risk of falling out. In the picture below is a cross section of this prototype. The gray is the leg tip, the brown is the chair, and the 
+              red is the felt piece.
+              <ImageContainer src="/images/3dprintlegprototype.png" alt="Leg Tip Prototype"/>
+              <br /> <br />
               I learned very quickly the trials and tribulations that come with resin printing, getting resin all over the table, my tools, inhaling probably
               too much IPA fumes, and not even getting a successful print at the end. Through time, I learned <BoldText>the process of resin SLA printing, the possibilities,
               limitations, and requirements for a successful print.</BoldText>
               <br /> <br />
               At the end, I was able to mock up and print a set of chair leg tips that my mom was very happy about:
 
-              ****INSERT IMAGE HERE*****
+              <ImageContainer src="/images/3dprintchairleg.jpg" alt="3D Printed Leg Tip"/>
 
 
             </ProjectText>

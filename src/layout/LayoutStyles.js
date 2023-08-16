@@ -4,8 +4,6 @@ export const Container = styled.div`
   max-width: 1280px;
   width: 100%;
   margin: auto;
-  align-items: center;
-  justify-content: center;
 `;
 
 export const ProjectHeader = styled.div`
@@ -42,6 +40,10 @@ export const ProjectSub = styled.div`
   color: #ffffff;
   margin: 1rem;
   justify-content: center;
+
+  @media ${props => props.theme.breakpoints.sm} {
+    display: none;
+  }
 `;
 
 export const ProjectSubText = styled.p`

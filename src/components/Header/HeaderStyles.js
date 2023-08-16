@@ -8,6 +8,10 @@ export const Container = styled.div`
   grid-column-gap: 2rem;
   padding: 0 1rem;
   margin: 3rem;
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    margin: 1rem;
+  }
 `;
 
 export const Div1 = styled.div`
@@ -28,6 +32,12 @@ export const Div2 = styled.div`
   border-style: double;
   border-color: #000000;
   background-color: #ffefef;
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    grid-area: 1 / 1 / 2 / 9;
+    padding: 1rem;
+    margin: 2rem 0;
+  }
 `;
 
 export const Div3 = styled.div`
@@ -57,6 +67,11 @@ export const NavLink = styled.div`
     color: #ff8fc6;
     opacity: 1;
     cursor: pointer;
+  }
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    padding: 0 3rem;
+    font-size: 0;
 `;
 
 /// DropDown Contact
