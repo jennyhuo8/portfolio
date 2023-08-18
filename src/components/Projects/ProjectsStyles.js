@@ -9,9 +9,6 @@ export const ProjectSection = styled.div`
 export const Img = styled.img`
   width: 100%;
   height: 330px;
-
-
-
 `
 
 export const GridContainer = styled.section`
