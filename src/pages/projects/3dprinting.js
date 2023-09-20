@@ -56,9 +56,14 @@ const ThreeDPrinting = () => {
 
               <ImageContainer src="/images/3dprintswitchcart.png" alt="Cartridges"/>
 
-              Once finding the right dimensions, I was able to model up the entire Pokédex itself, which consisted of 2 pieces that fit together. Each side could hold 9 
-              Switch games as well as 1 SD card, for storage of 18 games and 2 SD cards in total. This endeavor presented a valuable opportunity for me to <BoldText>challenge my SolidWorks
+              Once finding the right dimensions, I was able to model up the entire Pokédex itself, which consisted of 2 pieces that are built into each other. Each side could hold 9 
+              Switch games for a total storage of 18 games. I made the two pieces to be built into each other by generating an assembly in SolidWorks and preassembling the two pieces together 
+              and then creating a gap of 1mm between the two pieces so that when it prints, it will print the two pieces to already be fitted into each other.
+              
+              <br /> <br />This endeavor presented a valuable opportunity for me to <BoldText>challenge my SolidWorks
               skills while also showcasing my capability to prototype a functional solution.</BoldText>
+
+              <ImageContainer src="/images/3dprintpokedex.jpg" alt="Pokedex"/>
 
             </ProjectText>
             </Balancer>
