@@ -19,6 +19,8 @@ export const PageContainer = styled.img`
   max-width: 150%;
   max-height: 150%;
   cursor: zoom-in;
+  align-items: center;
+  justify-content: center;
 `;
 
 export const BigPageContainer = styled.img`
@@ -29,13 +31,19 @@ export const BigPageContainer = styled.img`
   max-width: 150%;
   max-height: 150%;
   cursor: zoom-out;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+  display: flex;
+  margin: auto;
+  z-index: 999;
 `;
 
 
 export const ModalOverlay = styled.div`
   position: fixed;
   top: 0;
-  left: 0;
+  left: 50;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.8);
@@ -50,7 +58,10 @@ export const ModalContent = styled.div`
   max-width: 100%;
   max-height: 100%;
   overflow: auto;
+  align-items: center;
+  justify-content: center;
 `;
+
 
 export const ResumeLink = styled.a`
   color: #000000;

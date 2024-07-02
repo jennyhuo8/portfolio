@@ -674,6 +674,13 @@
   resolved "https://registry.npmjs.org/@types/scheduler/-/scheduler-0.16.3.tgz"
   integrity sha512-5cJ8CB4yAx7BH1oMvdU0Jh9lrEXyPkar6F9G/ERswkCuvP4KQZfZkSjcMbAICCpQTN4OuZn8tz0HiKv9TGZgrQ==
 
+"@vercel/analytics@^1.3.1":
+  version "1.3.1"
+  resolved "https://registry.npmjs.org/@vercel/analytics/-/analytics-1.3.1.tgz"
+  integrity sha512-xhSlYgAuJ6Q4WQGkzYTLmXwhYl39sWjoMA3nHxfkvG+WdBT25c563a7QhwwKivEOZtPJXifYHR1m2ihoisbWyA==
+  dependencies:
+    server-only "^0.0.1"
+
 "@webassemblyjs/ast@^1.11.5", "@webassemblyjs/ast@1.11.6":
   version "1.11.6"
   resolved "https://registry.npmjs.org/@webassemblyjs/ast/-/ast-1.11.6.tgz"
@@ -2016,7 +2023,7 @@ next-session@^4.0.5:
     cookie "^0.4.1"
     nanoid "^3.1.25"
 
-next@13.4.10:
+"next@>= 13", next@13.4.10:
   version "13.4.10"
   resolved "https://registry.npmjs.org/next/-/next-13.4.10.tgz"
   integrity sha512-4ep6aKxVTQ7rkUW2fBLhpBr/5oceCuf4KmlUpvG/aXuDTIf9mexNSpabUD6RWPspu6wiJJvozZREhXhueYO36A==
@@ -2326,7 +2333,7 @@ postcss@8.4.14:
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
-prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@^15.6.0, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.8.1"
   resolved "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
@@ -2400,6 +2407,11 @@ react-fast-compare@^3.1.1:
   resolved "https://registry.npmjs.org/react-fast-compare/-/react-fast-compare-3.2.2.tgz"
   integrity sha512-nsO+KSNgo1SbJqJEYRE9ERzo7YtYbou/OqjSQKxV7jcKox7+usiUVZOAC+XnDOABXggQTno0Y1CpVnuWEc1boQ==
 
+react-ga@^3.3.1:
+  version "3.3.1"
+  resolved "https://registry.npmjs.org/react-ga/-/react-ga-3.3.1.tgz"
+  integrity sha512-4Vc0W5EvXAXUN/wWyxvsAKDLLgtJ3oLmhYYssx+YzphJpejtOst6cbIHCIyF50Fdxuf5DDKqRYny24yJ2y7GFQ==
+
 react-helmet@^6.1.0:
   version "6.1.0"
   resolved "https://registry.npmjs.org/react-helmet/-/react-helmet-6.1.0.tgz"
@@ -2467,7 +2479,7 @@ react-wrap-balancer@^1.0.0:
   resolved "https://registry.npmjs.org/react-wrap-balancer/-/react-wrap-balancer-1.0.0.tgz"
   integrity sha512-yjDH+I8WGyDfh95gKhX/6ckfSBAltwQkxiYxtLPlyIRQNUVSjvz1uHR6Hpy+zHyOkJQw6GEC5RPglA41QXvzyw==
 
-react@*, "react@^16.3.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.8.6 || ^17.0.0 || ^18.0.0", react@^18.2.0, "react@>= 16.8.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", react@>=16.3.0, react@>=16.8.0, "react@>=16.8.0 || ^17.0.0 || ^18", react@18.2.0:
+react@*, "react@^15.6.2 || ^16.0 || ^17 || ^18", "react@^16.3.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.8.6 || ^17.0.0 || ^18.0.0", "react@^18 || ^19", react@^18.2.0, "react@>= 16.8.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", react@>=16.3.0, react@>=16.8.0, "react@>=16.8.0 || ^17.0.0 || ^18", react@18.2.0:
   version "18.2.0"
   resolved "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   integrity sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==
@@ -2636,6 +2648,11 @@ serialize-javascript@^6.0.1:
   integrity sha512-owoXEFjWRllis8/M1Q+Cw5k8ZH40e3zhp/ovX+Xr/vi1qj6QesbyXXViFbpNvWvPNAD62SutwEXavefrLJWj7w==
   dependencies:
     randombytes "^2.1.0"
+
+server-only@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.npmjs.org/server-only/-/server-only-0.0.1.tgz"
+  integrity sha512-qepMx2JxAa5jjfzxG79yPPq+8BuFToHd1hm7kI+Z4zAq1ftQiP7HcxMhDDItrbtwVeLg/cY2JnKnrcFkmiswNA==
 
 set-blocking@^2.0.0:
   version "2.0.0"

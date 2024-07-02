@@ -32,10 +32,10 @@ export const AboutContainer = styled.div`
 `;
 
 export const AboutText = styled.p`
-  font-size: 24px;
+  font-size: 18px;
   line-height: 40px;
   font-weight: 300;
-  margin-bottom: 100px;
+  margin-bottom: 3rem;
   color: black;
   text-align: left;
 
@@ -45,10 +45,10 @@ export const AboutText = styled.p`
 `;
 
 export const JennyImage = styled.img`
-  max-width: 500px;
+  max-width: 400px;
   border: solid 3px;
   color: #000000;
-  margin: 3rem;
+  margin: 1rem 3rem;
   float: right;
   @media ${(props) => props.theme.breakpoints.sm} {
     max-width: 0;

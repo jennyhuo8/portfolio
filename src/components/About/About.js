@@ -19,12 +19,21 @@ const About = () => {
           in a hunk of metal by lighting liquid on fire in a space ship, or how we can stick someone in a huge magnet 
           and see inside their freaking brain with an MRI, and I mean, who would've thought of using the LITERAL SUN 
           so you can watch TV in your house with a solar panel? Finding out that I could harness my own creativity to 
-          solve problems in the world is what drove me to engineering in the first place. Now, I hope to continue 
-          exploring the world of engineering and be able to contribute to future advances in the world that my inner 
-          child would be amazed by.
+          solve problems in the world is what drove me to engineering in the first place. 
+          <br />
         </AboutText>
         <JennyImage src="/images/aboutme.jpg"/>
       </AboutContainer>
+      <AboutText>
+        In the past, I've worked at Johnson and Johnson as a Product Development Co-op, Handsfree Health
+        as an Information Technology Co-op, and Verizon as a 5G Engineering Co-op. These multifaceted experiences showed me product development for medical devices, 
+        software development for smart wearables, and cutting edge wireless technologies. I was able to see an in depth view of mechanical and electrical engineering and 
+        computer science spaces, and since then I have developed an even greater appreciation and passion for all that is 
+        science and technology.
+
+        Now, I hope to continue exploring the world of engineering and be able to contribute to future advances in 
+        the world that my inner child would be amazed by. 
+      </AboutText>
       <CheckResume>If you're interested, you can check out my resume below!</CheckResume>
     </AboutSection>
   );

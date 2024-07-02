@@ -1,5 +1,20 @@
 export const projects = [
   {
+    title: '5G Engineering Co-op',
+    description: "As a 5G Engineering Co-op at Verizon, I tested devices such as smartphones to make sure they performed well and were safe for the network. " +
+    "I collaborated with my team to test flagship devices, identify and resolve critical issues, and manage the lab IT network. " +
+    "Additionally, I enhanced team capabilities by operating and maintaining lab equipment and training colleagues in 3D printing and CAD " +
+    "design. My role required a blend of technical expertise and proactive problem-solving, ensuring the reliability and performance of our " +
+    "cutting-edge technology.",
+    image: '/images/verizoncover.jpg',
+    tags: ['Computer Networking', 'Fusion 360'],
+    id: 4,
+    slug: 'verizon',
+    short_description: 'I tested devices to make sure they are safe for the Verizon network during my co-op.',
+    date: '2024'
+  },
+
+  {
     title: 'This Website!',
     description: "I took on the challenge of independently designing and developing this very portfolio website, which serves as a showcase of me, my projects, " +
      "and resume information. Building this website from the ground up was a great learning experience as I delved into React to craft a visually " +
@@ -14,7 +29,7 @@ export const projects = [
     date: '2023 - Present',
   },
   {
-    title: 'Product Development Co-Op',
+    title: 'Product Development Co-op',
     description:"As a co-op at Johnson & Johnson, I played a role in the design and development of new cutting edge orthopedic surgical instruments. Collaborating closely " +
     "with the team, I spent hours researching different surgical techniques and actively seeking feedback from coworkers, enabling me to make insightful improvements to the " +
     "instruments after many prototypes. During surgeon labs, my designs garnered positive feedback for usability and performance. Along with my design work, " +
