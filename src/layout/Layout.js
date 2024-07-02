@@ -5,7 +5,7 @@ import Header from '../components/Header/Header';
 import { Container } from './LayoutStyles';
 
 export const metadata = {
-  title: "Roe Handyman Services",
+  title: "Jenny's Portfolio",
 };
 
 export const Layout = ({ children }) => {

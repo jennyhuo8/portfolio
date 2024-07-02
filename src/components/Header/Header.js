@@ -2,29 +2,33 @@ import Link from 'next/link';
 
 import { AiOutlineHome, AiOutlineSmile, AiOutlineReconciliation, AiOutlineFileText } from 'react-icons/ai';
 
-import { Container, Div2, Img, LogoContainer, LogoText, LinksContainer, LinkItem } from './HeaderStyles';
+import { Container, Div2, NavLink, } from './HeaderStyles';
 
-const Header = () => {
-  return (
-    <Container>
-      <Div2>
-        <LogoContainer>
-          <Img src="/images/rhs_logo.png" />
-          <LogoText>
-            <ul>
-              <li>ROE</li>
-              <li>HANDYMAN</li>
-              <li>SERVICES</li>
-            </ul></LogoText>
-        </LogoContainer>
-        <LinksContainer>
-          <LinkItem href="/services">SERVICES</LinkItem>
-          <LinkItem href="/pictures">PICTURES</LinkItem>
-          <LinkItem href="/about">ABOUT</LinkItem>
-        </LinksContainer>
-      </Div2>
+const Header = () =>  (
+  <Container>
+    <Div2>
+    <li>
+        <Link href="/">
+          <NavLink> <AiOutlineHome size="3rem"/> Home</NavLink>
+        </Link>
+      </li>
+      <li>
+        <Link href="/projects">
+          <NavLink> <AiOutlineReconciliation size="3rem"/> Projects</NavLink>
+        </Link>
+      </li>
+      <li>
+        <Link href="/about">
+          <NavLink> <AiOutlineSmile size="3rem"/>About Me</NavLink>
+        </Link>
+      </li>        
+      <li>
+        <Link href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+          <NavLink> <AiOutlineFileText size="3rem"/> Resume</NavLink>
+        </Link>
+      </li>        
+    </Div2>
     </Container>
-  );
-};
+);
 
 export default Header;
