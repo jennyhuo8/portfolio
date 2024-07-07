@@ -16,7 +16,6 @@ export const FooterWrapper = styled.section`
 `
 
 export const LinkItem = styled.div`
-	font-size: 18px;
 	line-height: 30px;
 	color: #000000;
 	margin-bottom: 0;
@@ -92,7 +91,6 @@ export const LinkTitle = styled.h4`
 	font-weight: 600;
 	font-size: 15px;
 	line-height: 24px;
-	text-transform: uppercase;
 	color: #000000;
 	margin-bottom: 16px;
 
@@ -152,3 +150,7 @@ export const IconsContainer = styled.div`
 		justify-content: center;
 	}
 `;
+
+export const LinkText = styled.p`
+	font-size: 18px;
+`

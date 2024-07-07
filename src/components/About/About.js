@@ -5,6 +5,7 @@ import { AboutSection, AboutContainer, AboutText, JennyImage, CheckResume } from
 
 const About = () => {
   return (
+    <Section>
     <AboutSection id="about">
       <SectionTitle>ABOUT ME</SectionTitle>
       <AboutContainer>
@@ -36,6 +37,7 @@ const About = () => {
       </AboutText>
       <CheckResume>If you're interested, you can check out my resume below!</CheckResume>
     </AboutSection>
+    </Section>
   );
 };
 
