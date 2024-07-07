@@ -18,12 +18,12 @@ export const FooterWrapper = styled.section`
 export const LinkItem = styled.div`
 	line-height: 30px;
 	color: #000000;
-	margin-bottom: 0;
 	transition: .3s ease;
 	position: relative;
 	left: 0;
 	display: flex;
 	align-items: right;
+	align-items: center;
 
 	&:hover {
 		transform: scale(1.2);
@@ -86,7 +86,7 @@ export const LinkColumn = styled.div`
 		align-items: center;
 	}
 `
-export const LinkTitle = styled.h4`
+export const LinkTitle = styled.p`
 	font-style: normal;
 	font-weight: 600;
 	font-size: 15px;

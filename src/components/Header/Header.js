@@ -2,11 +2,11 @@ import Link from 'next/link';
 
 import { AiOutlineHome, AiOutlineSmile, AiOutlineReconciliation, AiOutlineFileText } from 'react-icons/ai';
 
-import { Container, Div2, NavLink, } from './HeaderStyles';
+import { Container, HeaderBox, NavLink, } from './HeaderStyles';
 
 const Header = () =>  (
   <Container>
-    <Div2>
+    <HeaderBox>
     <li>
         <Link href="/">
           <NavLink> <AiOutlineHome size="3rem"/> Home</NavLink>
@@ -27,8 +27,8 @@ const Header = () =>  (
           <NavLink> <AiOutlineFileText size="3rem"/> Resume</NavLink>
         </Link>
       </li>        
-    </Div2>
-    </Container>
+    </HeaderBox>
+  </Container>
 );
 
 export default Header;
