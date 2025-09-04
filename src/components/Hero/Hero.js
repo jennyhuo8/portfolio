@@ -12,7 +12,7 @@ const Hero = (props) => (
           JENNY HUO
         </SectionTitle>
         <SectionText>
-        Aspiring Mechanical Engineer and Computer Science Enthusiast. Fueled by the excitement of blending creativity and technology to engineer a brighter future.
+        Aspiring Mechanical Engineer. Fueled by the excitement of blending creativity and technology to create a brighter future.
         </SectionText>
       </LeftSection>
     </Section>

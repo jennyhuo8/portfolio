@@ -28,7 +28,6 @@ export const AboutContainer = styled.div`
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  margin-top: 3rem;
 `;
 
 export const AboutText = styled.p`
@@ -48,7 +47,7 @@ export const JennyImage = styled.img`
   max-width: 400px;
   border: solid 3px;
   color: #000000;
-  margin: 1rem 3rem;
+  margin: 4rem 3rem;
   float: right;
   @media ${(props) => props.theme.breakpoints.sm} {
     max-width: 0;

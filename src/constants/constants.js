@@ -1,5 +1,21 @@
 export const projects = [
   {
+    title: 'Critter Catcher',
+    description: "As the Lead of the Electronic Subsystem for my Capstone Project, I designed and implemented the electronics and control " +
+    "system for a handheld, humane insect capture device. I programmed an Arduino Pro Mini to regulate the fan’s duty cycle for variable speed " +
+    "control and integrated key components, including an on-off button and a rechargeable lithium-ion battery for portability. I collaborated " +
+    "with my team to ensure seamless integration of mechanical and electrical systems, optimizing both functionality and user experience. " +
+    "My role required a combination of embedded programming, circuit design, and mechanical integration, contributing to a versatile and " +
+    "effective solution for insect management.",
+    image: '/images/capstonegroup.jpg',
+    tags: ['SolidWorks', 'Arduino'],
+    id: 5,
+    slug: 'crittercatcher',
+    short_description: 'I created a humane bug catcher for my Mechanical Engineering Capstone project.',
+    date: '2024'
+  },
+
+  {
     title: '5G Engineering Co-op',
     description: "As a 5G Engineering Co-op at Verizon, I tested devices such as smartphones to make sure they performed well and were safe for the network. " +
     "I collaborated with my team to test flagship devices, identify and resolve critical issues, and manage the lab IT network. " +
